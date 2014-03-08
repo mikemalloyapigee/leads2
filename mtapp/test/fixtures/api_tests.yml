@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  auth_url: MyText
+  auth_headers: MyString
+  auth_body: MyText
+
+two:
+  auth_url: MyText
+  auth_headers: MyString
+  auth_body: MyText

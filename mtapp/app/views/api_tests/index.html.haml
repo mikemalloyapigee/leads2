@@ -1,0 +1,40 @@
+.page-header
+  %h1
+    Listing api_tests
+
+%table.table.table-striped
+  %tr
+    %th
+      Auth url
+    %th
+      Auth headers
+    %th
+      Auth body
+    %th
+      Run Test
+    %th
+      Show
+    %th
+      Edit
+    %th
+      Destroy
+  - @api_tests.each do |api_test| 
+    %tr.breaktd
+      %td
+        = api_test.auth_url 
+      %td
+        = api_test.auth_headers 
+      %td
+        = api_test.auth_body
+      %td
+        = link_to "Run Test", run_test_api_test_path(api_test)
+      %td
+        = link_to 'Show', api_test 
+      %td
+        = link_to 'Edit', edit_api_test_path(api_test) 
+      %td
+        = link_to 'Destroy', api_test, method: :delete, data: { confirm: 'Are you sure?' } 
+  
+
+
+= link_to 'New Api test', new_api_test_path 

@@ -1,0 +1,22 @@
+.span6  
+  %p.notice
+    = notice
+
+  %p
+    %b
+      Response Code:
+    = @test_result.response_code
+  %p
+    %b
+      Auth token:
+    = @test_result.auth_token
+  %p
+    %b
+      Request Response Code:
+    = @test_result.req_response_code
+  %p
+    %b
+      Response Body
+    = @test_result.response_body
+    
+  = link_to 'Back', test_results_path

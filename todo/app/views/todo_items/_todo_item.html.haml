@@ -1,0 +1,12 @@
+- item_id = item.id
+- li_checked = false
+- li_class = ""
+- if item.completed 
+  - li_checked = true
+  - li_class = "completed"
+%li{:class => "#{li_class}", :data =>{:id =>"#{item_id}"}}
+  .view
+    %input{:class=>"toggle", :type=>"checkbox", :checked => li_checked }
+    %label
+      = item.title
+    %button{:class=>"destroy"}

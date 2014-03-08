@@ -1,0 +1,39 @@
+%h1
+  Listing Test Results
+.span8
+  %table.table.table-striped
+    %tr
+      %th
+        ID
+      %th
+        Auth token
+      %th
+        Auth RC
+      %th
+        Response Body
+      %th
+      %th
+      %th
+    - @test_results.each do |test_result| 
+      %tr
+        %td
+          = test_result.id
+        %td
+          = test_result.auth_token 
+        %td
+          = test_result.req_response_code
+        %td
+          - unless test_result.response_body.nil?
+            - if test_result.response_body.length > 50
+              = test_result.response_body[0..50]
+            - else
+              = test_result.response_body
+        %td
+          = link_to 'Show', test_result 
+        %td
+          = link_to 'Edit', edit_test_result_path(test_result) 
+        %td
+          = link_to 'Destroy', test_result, method: :delete, data: { confirm: 'Are you sure?' } 
+  %br
+
+  = link_to 'New Test result', new_test_result_path

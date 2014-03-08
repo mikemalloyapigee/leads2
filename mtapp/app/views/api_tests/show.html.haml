@@ -1,0 +1,22 @@
+.notice
+  = notice 
+%p
+  %b
+    Auth url:
+  = @api_test.auth_url 
+%p
+  %b
+    Auth headers:
+  = @api_test.auth_headers 
+%p
+  %b
+    Auth body:
+  = @api_test.auth_body 
+%p
+  %b
+    Request url:
+  = @api_test.request_url
+  
+= link_to 'Edit', edit_api_test_path(@api_test)
+|
+= link_to 'Back', api_tests_path 

@@ -1,0 +1,685 @@
+2013-01-29 02:18:15.711+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-01-29 02:18:15.719+0000: enable_online_backup has been replaced with online_backup_enabled and online_backup_port
+2013-01-29 02:18:15.719+0000: cannot configure writers and searchers individually since they go together
+2013-01-29 02:18:15.833+0000: Creating new db @ /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore
+2013-01-29 02:18:15.875+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.nodestore.db] brickCount=0 brickSize=2327832b mappedMem=232783872b (storeSize=0b)
+2013-01-29 02:18:15.907+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.929+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-01-29 02:18:15.936+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-01-29 02:18:15.936+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.937+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.940+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-01-29 02:18:15.940+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-01-29 02:18:15.940+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.strings] brickCount=0 brickSize=713984b mappedMem=714080256b (storeSize=128b)
+2013-01-29 02:18:15.941+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2013-01-29 02:18:15.943+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+2013-01-29 02:18:15.944+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.arrays] brickCount=0 brickSize=809472b mappedMem=809500672b (storeSize=128b)
+2013-01-29 02:18:15.947+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db] brickCount=0 brickSize=8399055b mappedMem=839909376b (storeSize=0b)
+2013-01-29 02:18:15.950+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshipstore.db] brickCount=0 brickSize=10286529b mappedMem=1028653056b (storeSize=0b)
+2013-01-29 02:18:15.950+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.nodestore.db] brickCount=0 brickSize=232776b mappedMem=232783872b (storeSize=9b)
+2013-01-29 02:18:15.951+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-01-29 02:18:15.956+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.958+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.959+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.961+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.962+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.964+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.966+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.968+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.969+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:18:15.971+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore hit=0 miss=8 switches=0 ooe=0
+2013-01-29 02:18:15.978+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-01-29 02:18:15.978+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-01-29 02:18:15.979+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.strings] brickCount=0 brickSize=713984b mappedMem=714080256b (storeSize=128b)
+2013-01-29 02:18:15.979+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2013-01-29 02:18:15.980+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+2013-01-29 02:18:15.980+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.arrays] brickCount=0 brickSize=809472b mappedMem=809500672b (storeSize=128b)
+2013-01-29 02:18:15.980+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db] brickCount=0 brickSize=8399055b mappedMem=839909376b (storeSize=0b)
+2013-01-29 02:18:15.981+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshipstore.db] brickCount=0 brickSize=10286529b mappedMem=1028653056b (storeSize=0b)
+2013-01-29 02:18:15.981+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.nodestore.db] brickCount=0 brickSize=232776b mappedMem=232783872b (storeSize=9b)
+2013-01-29 02:18:15.982+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-01-29 02:18:16.006+0000: Opened logical log [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2013-01-29 02:18:16.014+0000: TM new log: tm_tx_log.1
+2013-01-29 02:18:16.098+0000: Opened logical log [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/index/lucene.log.1] version=0, lastTxId=1 (clean)
+2013-01-29 02:18:16.103+0000: --- STARTUP diagnostics START ---
+2013-01-29 02:18:16.105+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    timestamps=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=772M
+    neostore.propertystore.db.strings.mapped_memory=681M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    storage_path=/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    migration_thread=false
+    store_dir=/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development
+    remote_logging_host=127.0.0.1
+    online_backup_enabled=false
+    remote_logging_port=4560
+    enable_rules=true
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=981M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=222M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    identity_map=true
+    log_mapped_memory_stats=false
+    mapped_memory_page_size=1M
+    neo_store=neostore
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=801M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-01-29 02:18:16.111+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2013-01-29 02:18:16.112+0000: System memory information:
+    Total Physical memory: 8.00 GB
+    Free Physical memory: 137.78 MB
+    Committed virtual memory: 3.24 GB
+    Total swap space: 1.00 GB
+    Free swap space: 456.09 MB
+2013-01-29 02:18:16.119+0000: JVM memory information:
+    Free  memory: 31.68 MB
+    Total memory: 81.06 MB
+    Max   memory: 493.75 MB
+    Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+    Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=3.50 MB, used=3.33 MB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=14.07 MB, max=50.00 MB, threshold=?
+    Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=1.43 MB, max=6.25 MB, threshold=?
+    Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=33.88 MB, max=437.50 MB, threshold=0.00 B
+    Memory Pool: CMS Perm Gen (Non-heap memory): committed=52.29 MB, used=35.47 MB, max=82.00 MB, threshold=0.00 B
+2013-01-29 02:18:16.124+0000: Operating system information:
+    Operating System: Mac OS X; version: 10.7.5; arch: x86_64; cpus: 8
+    Max number of file descriptors: 10240
+    Number of open file descriptors: 74
+    Process id: 21923@Michaels-MacBook-Pro.local
+    Byte order: LITTLE_ENDIAN
+    Local timezone: America/Los_Angeles
+2013-01-29 02:18:16.132+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Apple Inc.
+    VM Version: 20.12-b01-434
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Djdk.home=, -Djruby.home=/Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2/lib/native/Darwin, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2/lib/jruby.jar, -Dfile.encoding=UTF-8]
+2013-01-29 02:18:16.133+0000: Java classpath:
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/json-1.7.6-java/lib/json/ext/generator.jar
+     [bootstrap] /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/Resources/Java/JavaRuntimeSupport.jar
+     [loader.3] file:/System/Library/Java/Extensions/dns_sd.jar
+     [loader.3] file:/System/Library/Java/Extensions/MRJToolkit.jar
+     [classpath + loader.2] file:/Users/ApigeeCorporation/rails/neo_blog/
+     [loader.3] file:/System/Library/Java/Extensions/vecmath.jar
+     [loader.3] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-jmx-1.8.1.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-cypher-1.8.1.jar
+     [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-kernel-1.8.1.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar
+     [loader.3] file:/System/Library/Java/Extensions/libJ3D.jnilib
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.3] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/scala-library-2.9.1-1.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+     [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+     [loader.3] file:/System/Library/Java/Extensions/QTJava.zip
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+     [loader.3] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+     [loader.3] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-udc-1.8.1.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/lucene-core-3.5.0.jar
+     [loader.3] file:/System/Library/Java/Extensions/j3daudio.jar
+     [loader.3] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/concurrentlinkedhashmap-lru-1.3.1.jar
+     [loader.3] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+     [loader.3] file:/System/Library/Java/Extensions/j3dcore.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-shell-1.8.1.jar
+     [loader.3] file:/System/Library/Java/Extensions/j3dutils.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/server-api-1.8.1.jar
+     [loader.3] file:/System/Library/Java/Extensions/jai_core.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [loader.3] file:/System/Library/Java/Extensions/jai_codec.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-graph-matching-1.8.1.jar
+     [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-lucene-index-1.8.1.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/json-1.7.6-java/lib/json/ext/parser.jar
+     [bootstrap] /Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2/lib/jruby.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jce.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-core-2.2.3-java/lib/neo4j-core/jars/neo4jrb-adaptor.jar
+     [loader.3] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar
+     [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+     [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-graph-algo-1.8.1.jar
+2013-01-29 02:18:16.135+0000: Library path:
+    /Users/ApigeeCorporation/rails/neo_blog
+    /Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+2013-01-29 02:18:16.135+0000: System.properties:
+    jruby.home = /Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2
+    sun.boot.library.path = /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries
+    awt.nativeDoubleBuffering = true
+    gopherProxySet = false
+    mrj.build = 11M3909
+    path.separator = :
+    file.encoding.pkg = sun.io
+    sun.java.launcher = SUN_STANDARD
+    user.country = US
+    sun.os.patch.level = unknown
+    user.dir = /Users/ApigeeCorporation/rails/neo_blog
+    neo4j.ext.udc.source = neo4rb
+    jdk.home = 
+    sun.jnu.encoding = MacRoman
+    jruby.memory.max = 500m
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    jffi.boot.library.path = /Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2/lib/native/Darwin
+    user.home = /Users/ApigeeCorporation
+    user.timezone = America/Los_Angeles
+    file.encoding = UTF-8
+    jruby.stack.max = 2048k
+    jruby.script = jruby
+    user.name = ApigeeCorporation
+    jruby.shell = /bin/sh
+    sun.java.command = org/jruby/Main --1.9 /Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/bin/ruby_noexec_wrapper /Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/bin/rails c
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = apple.awt.CToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    mrj.version = 1070.1.6.0_37-434
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    sun.cpu.isalist = 
+2013-01-29 02:18:16.136+0000: Network information:
+    Interface en1:
+        address: fe80:0:0:0:7256:81ff:fe98:d821%5
+        address: 10.0.0.6
+    Interface lo0:
+        address: 0:0:0:0:0:0:0:1
+        address: fe80:0:0:0:0:0:0:1%1
+        address: 127.0.0.1
+2013-01-29 02:18:16.137+0000: --- STARTUP diagnostics END ---
+2013-01-29 02:18:16.142+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-01-29 02:18:16.209+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-01-29 02:18:16.213+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-01-29 02:18:16.215+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-01-29 02:18:16.224+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-01-29 02:18:16.224+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1359425895833, id:2463020383482574564, store version: 13561656364791302]
+2013-01-29 02:18:16.224+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-01-29 02:18:16.224+0000: Neo4j component versions:
+2013-01-29 02:18:16.225+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-01-29 02:18:16.225+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-01-29 02:18:16.228+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-01-29 02:18:16.228+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-01-29 02:18:16.229+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-01-29 02:18:16.229+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-01-29 02:18:16.229+0000: Id usage:
+    Id usage:
+      NodeStore: used=1 high=0
+      RelationshipStore: used=0 high=-1
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=0 high=-1
+      PropertyIndexStore: used=0 high=-1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2013-01-29 02:18:16.229+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-01-29 02:18:16.229+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-01-29 02:18:16.229+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-01-29 02:18:16.230+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-01-29 02:18:16.230+0000: Disk space on partition (Total / Free / Free %): 499248103424 / 388028280832 / 22
+Storage files: (filename : modification date - size)
+      active_tx_log: 2013-01-28T18:18:16-0800 - 11.00 B
+      index:
+        lucene-store.db: 2013-01-28T18:18:16-0800 - 40.00 B
+        lucene.log.1: 2013-01-28T18:18:16-0800 - 16.00 B
+        lucene.log.active: 2013-01-28T18:18:16-0800 - 4.00 B
+      - Total: 2013-01-28T18:18:16-0800 - 60.00 B
+      lock: 2013-01-28T18:18:15-0800 - 0.00 B
+      messages.log: 2013-01-28T18:18:16-0800 - 20.52 kB
+      neostore: 2013-01-28T18:18:15-0800 - 54.00 B
+      neostore.id: 2013-01-28T18:18:15-0800 - 9.00 B
+      neostore.nodestore.db: 2013-01-28T18:18:15-0800 - 9.00 B
+      neostore.nodestore.db.id: 2013-01-28T18:18:15-0800 - 9.00 B
+      neostore.propertystore.db: 2013-01-28T18:18:15-0800 - 0.00 B
+      neostore.propertystore.db.arrays: 2013-01-28T18:18:15-0800 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-01-28T18:18:15-0800 - 9.00 B
+      neostore.propertystore.db.id: 2013-01-28T18:18:15-0800 - 9.00 B
+      neostore.propertystore.db.index: 2013-01-28T18:18:15-0800 - 0.00 B
+      neostore.propertystore.db.index.id: 2013-01-28T18:18:15-0800 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-01-28T18:18:15-0800 - 38.00 B
+      neostore.propertystore.db.index.keys.id: 2013-01-28T18:18:15-0800 - 9.00 B
+      neostore.propertystore.db.strings: 2013-01-28T18:18:15-0800 - 128.00 B
+      neostore.propertystore.db.strings.id: 2013-01-28T18:18:15-0800 - 9.00 B
+      neostore.relationshipstore.db: 2013-01-28T18:18:15-0800 - 0.00 B
+      neostore.relationshipstore.db.id: 2013-01-28T18:18:15-0800 - 9.00 B
+      neostore.relationshiptypestore.db: 2013-01-28T18:18:15-0800 - 0.00 B
+      neostore.relationshiptypestore.db.id: 2013-01-28T18:18:15-0800 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-01-28T18:18:15-0800 - 38.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-01-28T18:18:15-0800 - 9.00 B
+      nioneo_logical.log.1: 2013-01-28T18:18:16-0800 - 16.00 B
+      nioneo_logical.log.active: 2013-01-28T18:18:16-0800 - 4.00 B
+      tm_tx_log.1: 2013-01-28T18:18:16-0800 - 0.00 B
+2013-01-29 02:18:16.235+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-01-29 02:18:16.237+0000: Started - database is now available
+2013-01-29 02:18:16.239+0000: GC Monitor started. 
+2013-01-29 02:22:06.124+0000: Stopping - database is now unavailable
+2013-01-29 02:22:06.125+0000: TM shutting down
+2013-01-29 02:22:06.141+0000: Closed log /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/index/lucene.log
+2013-01-29 02:22:06.147+0000: Closed log /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/nioneo_logical.log
+2013-01-29 02:22:06.147+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db.names hit=0 miss=3 switches=0 ooe=0
+2013-01-29 02:22:06.149+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db hit=0 miss=3 switches=0 ooe=0
+2013-01-29 02:22:06.151+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:22:06.153+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index.keys hit=3 miss=0 switches=0 ooe=0
+2013-01-29 02:22:06.154+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index hit=3 miss=0 switches=0 ooe=0
+2013-01-29 02:22:06.156+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-01-29 02:22:06.159+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db hit=2 miss=0 switches=0 ooe=0
+2013-01-29 02:22:06.161+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshipstore.db hit=5 miss=0 switches=0 ooe=0
+2013-01-29 02:22:06.162+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.nodestore.db hit=10 miss=0 switches=0 ooe=0
+2013-01-29 02:22:06.165+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore hit=0 miss=21 switches=0 ooe=0
+2013-01-29 02:22:06.166+0000: NeoStore closed
+2013-01-29 02:22:06.167+0000: --- SHUTDOWN diagnostics START ---
+2013-01-29 02:22:06.167+0000: --- SHUTDOWN diagnostics END ---
+2013-01-29 02:25:49.086+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-01-29 02:25:49.091+0000: enable_online_backup has been replaced with online_backup_enabled and online_backup_port
+2013-01-29 02:25:49.091+0000: cannot configure writers and searchers individually since they go together
+2013-01-29 02:25:49.193+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=152b)
+2013-01-29 02:25:49.207+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=15b)
+2013-01-29 02:25:49.208+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.strings] brickCount=0 brickSize=713984b mappedMem=714080256b (storeSize=128b)
+2013-01-29 02:25:49.210+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=152b)
+2013-01-29 02:25:49.229+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=27b)
+2013-01-29 02:25:49.231+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.arrays] brickCount=0 brickSize=809472b mappedMem=809500672b (storeSize=128b)
+2013-01-29 02:25:49.257+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db] brickCount=0 brickSize=839885b mappedMem=839909376b (storeSize=82b)
+2013-01-29 02:25:49.273+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshipstore.db] brickCount=0 brickSize=1028643b mappedMem=1028653056b (storeSize=99b)
+2013-01-29 02:25:49.285+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.nodestore.db] brickCount=0 brickSize=232776b mappedMem=232783872b (storeSize=36b)
+2013-01-29 02:25:49.288+0000: [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-01-29 02:25:49.312+0000: Opened logical log [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/nioneo_logical.log.1] version=1, lastTxId=6 (clean)
+2013-01-29 02:25:49.321+0000: TM opening log: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/tm_tx_log.1
+2013-01-29 02:25:49.351+0000: Opened logical log [/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/index/lucene.log.1] version=1, lastTxId=1 (clean)
+2013-01-29 02:25:49.357+0000: --- STARTUP diagnostics START ---
+2013-01-29 02:25:49.360+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    timestamps=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=772M
+    neostore.propertystore.db.strings.mapped_memory=681M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    storage_path=/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    migration_thread=false
+    store_dir=/Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development
+    remote_logging_host=127.0.0.1
+    online_backup_enabled=false
+    remote_logging_port=4560
+    enable_rules=true
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=981M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=222M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    identity_map=true
+    log_mapped_memory_stats=false
+    mapped_memory_page_size=1M
+    neo_store=neostore
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=801M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-01-29 02:25:49.365+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2013-01-29 02:25:49.366+0000: System memory information:
+    Total Physical memory: 8.00 GB
+    Free Physical memory: 137.76 MB
+    Committed virtual memory: 3.24 GB
+    Total swap space: 1.00 GB
+    Free swap space: 433.14 MB
+2013-01-29 02:25:49.373+0000: JVM memory information:
+    Free  memory: 29.73 MB
+    Total memory: 81.06 MB
+    Max   memory: 493.75 MB
+    Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+    Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=3.57 MB, used=3.35 MB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=16.01 MB, max=50.00 MB, threshold=?
+    Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=1.42 MB, max=6.25 MB, threshold=?
+    Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=33.91 MB, max=437.50 MB, threshold=0.00 B
+    Memory Pool: CMS Perm Gen (Non-heap memory): committed=52.28 MB, used=35.50 MB, max=82.00 MB, threshold=0.00 B
+2013-01-29 02:25:49.379+0000: Operating system information:
+    Operating System: Mac OS X; version: 10.7.5; arch: x86_64; cpus: 8
+    Max number of file descriptors: 10240
+    Number of open file descriptors: 75
+    Process id: 22015@Michaels-MacBook-Pro.local
+    Byte order: LITTLE_ENDIAN
+    Local timezone: America/Los_Angeles
+2013-01-29 02:25:49.386+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Apple Inc.
+    VM Version: 20.12-b01-434
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Djdk.home=, -Djruby.home=/Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2/lib/native/Darwin, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2/lib/jruby.jar, -Dfile.encoding=UTF-8]
+2013-01-29 02:25:49.388+0000: Java classpath:
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/json-1.7.6-java/lib/json/ext/generator.jar
+     [bootstrap] /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/Resources/Java/JavaRuntimeSupport.jar
+     [loader.3] file:/System/Library/Java/Extensions/dns_sd.jar
+     [loader.3] file:/System/Library/Java/Extensions/MRJToolkit.jar
+     [classpath + loader.2] file:/Users/ApigeeCorporation/rails/neo_blog/
+     [loader.3] file:/System/Library/Java/Extensions/vecmath.jar
+     [loader.3] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-jmx-1.8.1.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-cypher-1.8.1.jar
+     [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-kernel-1.8.1.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar
+     [loader.3] file:/System/Library/Java/Extensions/libJ3D.jnilib
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.3] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/scala-library-2.9.1-1.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+     [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+     [loader.3] file:/System/Library/Java/Extensions/QTJava.zip
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+     [loader.3] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+     [loader.3] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-udc-1.8.1.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/lucene-core-3.5.0.jar
+     [loader.3] file:/System/Library/Java/Extensions/j3daudio.jar
+     [loader.3] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/concurrentlinkedhashmap-lru-1.3.1.jar
+     [loader.3] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+     [loader.3] file:/System/Library/Java/Extensions/j3dcore.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-shell-1.8.1.jar
+     [loader.3] file:/System/Library/Java/Extensions/j3dutils.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/server-api-1.8.1.jar
+     [loader.3] file:/System/Library/Java/Extensions/jai_core.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [loader.3] file:/System/Library/Java/Extensions/jai_codec.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-graph-matching-1.8.1.jar
+     [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-lucene-index-1.8.1.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/json-1.7.6-java/lib/json/ext/parser.jar
+     [bootstrap] /Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2/lib/jruby.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jce.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-core-2.2.3-java/lib/neo4j-core/jars/neo4jrb-adaptor.jar
+     [loader.3] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar
+     [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+     [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+     [loader.0] file:/Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/gems/neo4j-community-1.8.1-java/lib/neo4j-community/jars/neo4j-graph-algo-1.8.1.jar
+2013-01-29 02:25:49.390+0000: Library path:
+    /Users/ApigeeCorporation/rails/neo_blog
+    /Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+2013-01-29 02:25:49.390+0000: System.properties:
+    jruby.home = /Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2
+    sun.boot.library.path = /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries
+    awt.nativeDoubleBuffering = true
+    gopherProxySet = false
+    mrj.build = 11M3909
+    path.separator = :
+    file.encoding.pkg = sun.io
+    sun.java.launcher = SUN_STANDARD
+    user.country = US
+    sun.os.patch.level = unknown
+    user.dir = /Users/ApigeeCorporation/rails/neo_blog
+    neo4j.ext.udc.source = neo4rb
+    jdk.home = 
+    sun.jnu.encoding = MacRoman
+    jruby.memory.max = 500m
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    jffi.boot.library.path = /Users/ApigeeCorporation/.rvm/rubies/jruby-1.6.7.2/lib/native/Darwin
+    user.home = /Users/ApigeeCorporation
+    user.timezone = America/Los_Angeles
+    file.encoding = UTF-8
+    jruby.stack.max = 2048k
+    jruby.script = jruby
+    user.name = ApigeeCorporation
+    jruby.shell = /bin/sh
+    sun.java.command = org/jruby/Main --1.9 /Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/bin/ruby_noexec_wrapper /Users/ApigeeCorporation/.rvm/gems/jruby-1.6.7.2/bin/rails c
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = apple.awt.CToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    mrj.version = 1070.1.6.0_37-434
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    sun.cpu.isalist = 
+2013-01-29 02:25:49.390+0000: Network information:
+    Interface en1:
+        address: fe80:0:0:0:7256:81ff:fe98:d821%5
+        address: 10.0.0.6
+    Interface lo0:
+        address: 0:0:0:0:0:0:0:1
+        address: fe80:0:0:0:0:0:0:1%1
+        address: 127.0.0.1
+2013-01-29 02:25:49.392+0000: --- STARTUP diagnostics END ---
+2013-01-29 02:25:49.421+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-01-29 02:25:49.507+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-01-29 02:25:49.511+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-01-29 02:25:49.512+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-01-29 02:25:49.515+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-01-29 02:25:49.515+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1359425895833, id:2463020383482574564, store version: 13561656364791302]
+2013-01-29 02:25:49.515+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-01-29 02:25:49.515+0000: Neo4j component versions:
+2013-01-29 02:25:49.516+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-01-29 02:25:49.516+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-01-29 02:25:49.519+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-01-29 02:25:49.519+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-01-29 02:25:49.519+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-01-29 02:25:49.519+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-01-29 02:25:49.519+0000: Id usage:
+    Id usage:
+      NodeStore: used=4 high=3
+      RelationshipStore: used=3 high=2
+      RelationshipTypeStore: used=3 high=2
+      PropertyStore: used=2 high=1
+      PropertyIndexStore: used=3 high=2
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2013-01-29 02:25:49.520+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-01-29 02:25:49.520+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-01-29 02:25:49.520+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-01-29 02:25:49.520+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-01-29 02:25:49.521+0000: Disk space on partition (Total / Free / Free %): 499248103424 / 388026347520 / 22
+Storage files: (filename : modification date - size)
+      active_tx_log: 2013-01-28T18:18:16-0800 - 11.00 B
+      index:
+        lucene-store.db: 2013-01-28T18:22:06-0800 - 40.00 B
+        lucene.log.1: 2013-01-28T18:25:49-0800 - 16.00 B
+        lucene.log.active: 2013-01-28T18:25:49-0800 - 4.00 B
+        lucene.log.v0: 2013-01-28T18:22:06-0800 - 16.00 B
+      - Total: 2013-01-28T18:25:49-0800 - 76.00 B
+      lock: 2013-01-28T18:25:49-0800 - 0.00 B
+      messages.log: 2013-01-28T18:25:49-0800 - 41.42 kB
+      neostore: 2013-01-28T18:25:49-0800 - 54.00 B
+      neostore.id: 2013-01-28T18:25:49-0800 - 9.00 B
+      neostore.nodestore.db: 2013-01-28T18:25:49-0800 - 36.00 B
+      neostore.nodestore.db.id: 2013-01-28T18:25:49-0800 - 9.00 B
+      neostore.propertystore.db: 2013-01-28T18:25:49-0800 - 82.00 B
+      neostore.propertystore.db.arrays: 2013-01-28T18:25:49-0800 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-01-28T18:25:49-0800 - 9.00 B
+      neostore.propertystore.db.id: 2013-01-28T18:25:49-0800 - 9.00 B
+      neostore.propertystore.db.index: 2013-01-28T18:25:49-0800 - 1.02 kB
+      neostore.propertystore.db.index.id: 2013-01-28T18:25:49-0800 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-01-28T18:25:49-0800 - 1.00 kB
+      neostore.propertystore.db.index.keys.id: 2013-01-28T18:25:49-0800 - 9.00 B
+      neostore.propertystore.db.strings: 2013-01-28T18:25:49-0800 - 128.00 B
+      neostore.propertystore.db.strings.id: 2013-01-28T18:25:49-0800 - 9.00 B
+      neostore.relationshipstore.db: 2013-01-28T18:25:49-0800 - 99.00 B
+      neostore.relationshipstore.db.id: 2013-01-28T18:25:49-0800 - 9.00 B
+      neostore.relationshiptypestore.db: 2013-01-28T18:25:49-0800 - 15.00 B
+      neostore.relationshiptypestore.db.id: 2013-01-28T18:25:49-0800 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-01-28T18:25:49-0800 - 152.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-01-28T18:25:49-0800 - 9.00 B
+      nioneo_logical.log.1: 2013-01-28T18:25:49-0800 - 16.00 B
+      nioneo_logical.log.active: 2013-01-28T18:25:49-0800 - 4.00 B
+      nioneo_logical.log.v0: 2013-01-28T18:22:06-0800 - 1.33 kB
+      tm_tx_log.1: 2013-01-28T18:25:49-0800 - 0.00 B
+2013-01-29 02:25:49.525+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-01-29 02:25:49.527+0000: Started - database is now available
+2013-01-29 02:25:49.527+0000: GC Monitor started. 
+2013-01-29 17:17:51.052+0000: GC Monitor: Application threads blocked for an additional 10567ms [total block time: 10.567s]
+2013-01-29 17:17:53.964+0000: GC Monitor: Application threads blocked for an additional 129ms [total block time: 10.696s]
+2013-01-29 17:48:45.973+0000: GC Monitor: Application threads blocked for an additional 43721ms [total block time: 54.417s]
+2013-01-30 03:30:51.574+0000: GC Monitor: Application threads blocked for an additional 27910ms [total block time: 82.327s]
+2013-01-30 08:25:32.773+0000: GC Monitor: Application threads blocked for an additional 2445ms [total block time: 84.772s]
+2013-01-30 08:25:33.281+0000: GC Monitor: Application threads blocked for an additional 275ms [total block time: 85.047s]
+2013-01-30 16:32:50.285+0000: GC Monitor: Application threads blocked for an additional 33872ms [total block time: 118.919s]
+2013-01-31 01:59:32.439+0000: GC Monitor: Application threads blocked for an additional 23861ms [total block time: 142.78s]
+2013-01-31 02:04:24.083+0000: GC Monitor: Application threads blocked for an additional 23893ms [total block time: 166.673s]
+2013-01-31 02:59:23.083+0000: GC Monitor: Application threads blocked for an additional 3297895ms [total block time: 3464.568s]
+2013-01-31 03:50:44.044+0000: GC Monitor: Application threads blocked for an additional 23839ms [total block time: 3488.407s]
+2013-01-31 04:43:04.072+0000: GC Monitor: Application threads blocked for an additional 3138904ms [total block time: 6627.311s]
+2013-01-31 06:38:22.293+0000: GC Monitor: Application threads blocked for an additional 22561ms [total block time: 6649.872s]
+2013-01-31 17:33:08.083+0000: GC Monitor: Application threads blocked for an additional 39284682ms [total block time: 45934.55s]
+2013-02-01 02:08:28.303+0000: GC Monitor: Application threads blocked for an additional 24870ms [total block time: 45959.426s]
+2013-02-01 04:52:36.085+0000: GC Monitor: Application threads blocked for an additional 9846672ms [total block time: 55806.098s]
+2013-02-01 05:36:37.301+0000: GC Monitor: Application threads blocked for an additional 250ms [total block time: 55806.344s]
+2013-02-01 08:25:38.785+0000: GC Monitor: Application threads blocked for an additional 889ms [total block time: 55807.234s]
+2013-02-01 08:25:39.238+0000: GC Monitor: Application threads blocked for an additional 353ms [total block time: 55807.59s]
+2013-02-01 16:14:37.175+0000: GC Monitor: Application threads blocked for an additional 438ms [total block time: 55808.023s]
+2013-02-02 16:21:08.485+0000: GC Monitor: Application threads blocked for an additional 348ms [total block time: 55808.375s]
+2013-02-02 16:21:08.915+0000: GC Monitor: Application threads blocked for an additional 229ms [total block time: 55808.605s]
+2013-02-02 16:21:14.304+0000: GC Monitor: Application threads blocked for an additional 244ms [total block time: 55808.848s]
+2013-02-02 16:21:19.728+0000: GC Monitor: Application threads blocked for an additional 384ms [total block time: 55809.23s]
+2013-02-03 18:05:30.221+0000: GC Monitor: Application threads blocked for an additional 33166ms [total block time: 55842.395s]
+2013-02-04 02:10:51.943+0000: GC Monitor: Application threads blocked for an additional 526ms [total block time: 55842.926s]
+2013-02-04 02:10:52.274+0000: GC Monitor: Application threads blocked for an additional 231ms [total block time: 55843.152s]
+2013-02-04 03:20:16.726+0000: GC Monitor: Application threads blocked for an additional 31932ms [total block time: 55875.09s]
+2013-02-04 04:50:44.085+0000: GC Monitor: Application threads blocked for an additional 5426250ms [total block time: 61301.336s]
+2013-02-04 05:08:19.203+0000: GC Monitor: Application threads blocked for an additional 150ms [total block time: 61301.49s]
+2013-02-04 06:37:45.016+0000: GC Monitor: Application threads blocked for an additional 31719ms [total block time: 61333.203s]
+2013-02-04 17:54:04.084+0000: GC Monitor: Application threads blocked for an additional 40577960ms [total block time: 101911.17s]
+2013-02-04 20:22:27.305+0000: GC Monitor: Application threads blocked for an additional 289ms [total block time: 101911.45s]
+2013-02-04 20:22:28.075+0000: Stopping - database is now unavailable
+2013-02-04 20:22:28.114+0000: GC Monitor stopped. 
+2013-02-04 20:22:28.583+0000: TM shutting down
+2013-02-04 20:22:28.738+0000: Closed log /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/index/lucene.log
+2013-02-04 20:22:28.932+0000: Closed log /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/nioneo_logical.log
+2013-02-04 20:22:28.932+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db.names hit=0 miss=7 switches=0 ooe=0
+2013-02-04 20:22:28.957+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshiptypestore.db hit=0 miss=4 switches=0 ooe=0
+2013-02-04 20:22:28.971+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-02-04 20:22:28.975+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index.keys hit=6 miss=0 switches=0 ooe=0
+2013-02-04 20:22:28.986+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.index hit=3 miss=0 switches=0 ooe=0
+2013-02-04 20:22:29.004+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-02-04 20:22:29.007+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.propertystore.db hit=6 miss=0 switches=0 ooe=0
+2013-02-04 20:22:29.010+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.relationshipstore.db hit=11 miss=0 switches=0 ooe=0
+2013-02-04 20:22:29.012+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore.nodestore.db hit=15 miss=0 switches=0 ooe=0
+2013-02-04 20:22:29.014+0000: /Users/ApigeeCorporation/rails/neo_blog/db/neo4j-development/neostore hit=0 miss=20 switches=0 ooe=0
+2013-02-04 20:22:29.017+0000: NeoStore closed
+2013-02-04 20:22:29.017+0000: --- SHUTDOWN diagnostics START ---
+2013-02-04 20:22:29.036+0000: --- SHUTDOWN diagnostics END ---

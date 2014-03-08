@@ -1,0 +1,14 @@
+%h1
+  Run Test Result
+%p
+  %strong
+    Response Code:
+  = @test_result.response_code
+%p
+  %strong
+    Auth Token:
+  = @test_result.auth_token
+%p
+  %strong
+    Number:
+  = @test_result.number.to_s
